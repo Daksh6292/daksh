@@ -99,7 +99,7 @@ function myf(){
         document.getElementsByName("REMARKS")[0].value=x[9][eq];
     }
     }   
-    document.getElementById("spinner").remove;
+    const element = document.getElementById("spinner"); element.remove();
     };    
     myf();
     
