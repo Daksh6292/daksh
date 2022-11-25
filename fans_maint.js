@@ -45,7 +45,7 @@ if(session== "MONTHLY") {
     document.getElementsByName("CHECK_CLEANINESS_OF_FAN_BLADES_AND_PHY_DAMAGE")[1].checked=true;
   };
   document.getElementsByName("REMARKS")[0].value=x[6][eq];
-  void (document.getElementById('spinner').style.display = 'none';
+  void (document.getElementById('spinner').style.display = 'none');
 }
 else if(session== "WEEKLY"){ 
   document.getElementsByName("DONE_DATE")[0].value=x[7][eq];
@@ -68,7 +68,7 @@ document.getElementsByName("CLEAN_AIR_FILTER_AND_REPLACE_IF_REQUIRED")[0].checke
   document.getElementsByName("CLEAN_AIR_FILTER_AND_REPLACE_IF_REQUIRED")[1].checked=true;
 };
   document.getElementsByName("REMARKS")[0].value=x[6][eq];
-  void(document.getElementById("spinner").style.display="none";
+  void(document.getElementById("spinner").style.display="none");
 }
 }   
 };    
