@@ -97,7 +97,7 @@ function myf(){
         document.getElementsByName("THREE_SPEED_SWITCH_CHECK_AND_REPAIR")[1].checked=true;
         };
         document.getElementsByName("REMARKS")[0].value=x[9][eq];
-        document.getElementById("spinner").remove();
+        void (document.getElementById('spinner').style.display = 'none');
     }
     }   
    
