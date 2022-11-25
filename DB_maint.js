@@ -75,9 +75,10 @@ function myf() {
             document.getElementsByName("CHK_MEASURING_INSTRUMENT_ENERGY_METER")[1].checked = true;
           };
         document.getElementsByName("REMARKS")[0].value = x[13][eq];
+        void (document.getElementById('spinner').style.display = 'none';
   
   
-      } else if (session == "Mquartly") {
+      } else if (session == "quartly") {
         
       }
     }
