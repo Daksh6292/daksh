@@ -36,7 +36,7 @@ function myf() {
         document.getElementsByName("HIGH_TEMP_HAND_TEST_BEARING_HOUSING_CHECK")[1].checked = true;
       };
       document.getElementsByName("REMARKS")[0].value = x[10][eq];
-      void (document.getElementById('spinner').style.display = 'none';
+      void (document.getElementById('spinner').style.display = 'none');
 
 
     } else if (session == "MONTHLY") {
@@ -60,7 +60,7 @@ function myf() {
         document.getElementsByName("CLEAN_AIR_FILTER_AND_REPLACE_IF_REQUIRED")[1].checked = true;
       };
       document.getElementsByName("REMARKS")[0].value = x[6][eq];
-      void (document.getElementById('spinner').style.display = 'none';
+      void (document.getElementById('spinner').style.display = 'none');
     }
   }
 };
