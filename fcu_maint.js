@@ -63,6 +63,7 @@ function myf(){
         };
 
       document.getElementsByName("REMARKS")[0].value=x[9][eq];
+      void (document.getElementById('spinner').style.display = 'none';
     }
     else if(session== "WEEKLY"){     
         document.getElementsByName("DONE_DATE")[0].value=x[10][eq];
