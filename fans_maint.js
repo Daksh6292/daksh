@@ -65,7 +65,9 @@ if (x[2][eq].toUpperCase()=="CHECKED") {
 document.getElementsByName("CLEAN_AIR_FILTER_AND_REPLACE_IF_REQUIRED")[0].checked=true;
 } else{
   document.getElementsByName("CLEAN_AIR_FILTER_AND_REPLACE_IF_REQUIRED")[1].checked=true;
-};document.getElementsByName("REMARKS")[0].value=x[6][eq];
+};
+  document.getElementsByName("REMARKS")[0].value=x[6][eq];
+  void(document.getElementById("spinner").style.display="none");
 }
 }   
 };    
