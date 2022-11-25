@@ -100,6 +100,7 @@ function myf(){
         document.getElementsByName("MOTOR_CURRENT_RYB_AMPERE")[0].value=x[18][eq];
         document.getElementsByName("ABNORMAL_SOUND_IF_ANY")[0].value=x[19][eq];
         document.getElementsByName("REMARKS")[0].value=x[20][eq];
+        void (document.getElementById('spinner').style.display = 'none';
         }   
         else if(session== "WEEKLY") {    
           document.getElementsByName("DONE_DATE")[0].value=x[21][eq];
@@ -134,6 +135,7 @@ function myf(){
             document.getElementsByName("CLEAN_FILTER_LOW_PRESSURE_AIR_WATER_DIRTY_REQUIRED")[1].checked=true;
           };
           document.getElementsByName("REMARKS")[0].value=x[20][eq];
+          void (document.getElementById('spinner').style.display = 'none';
         }
         
     };    
