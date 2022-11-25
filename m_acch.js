@@ -37,7 +37,7 @@ function myf() {
         document.getElementsByName("CONDENSER_COIL_CLEAN")[1].checked = true;
       };
       document.getElementsByName("REMARKS")[0].value = x[11][eq];
-      void (document.getElementById('spinner').style.display = 'none';
+      void (document.getElementById('spinner').style.display = 'none');
     } else if (session == "MONTHLY") {
       document.getElementsByName("DONE_DATE")[0].value = x[7][eq];
       $("#nextBtn").click();
@@ -59,7 +59,7 @@ function myf() {
         document.getElementsByName("CLEAN_AIR_FILTER_AND_REPLACE_IF_REQUIRED")[1].checked = true;
       };
       document.getElementsByName("REMARKS")[0].value = x[6][eq];
-      void (document.getElementById('spinner').style.display = 'none';
+      void (document.getElementById('spinner').style.display = 'none');
     }
   }
 };
