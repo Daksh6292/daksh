@@ -7,7 +7,7 @@ function myf() {
       var eq = document.getElementsByName("EQUIPMENT_ID")[0].value;
       var session = document.getElementsByName("MAINTENANCE_TYPE")[0].value;
       if (session == "MONTHLY") {
-        document.getElementsByName("DONE_DATE")[0].value = x[14][eq];
+        document.getElementsByName("DONE_DATE")[0].value = x[34][eq];
         $("#nextBtn").click();
         if (x[0][eq].toUpperCase() == "CHECKED") {
           document.getElementsByName("CHK_SELECTOR_SWITCH_LOCAL_REMOTE")[0].checked = true;
@@ -74,7 +74,7 @@ function myf() {
           } else {
             document.getElementsByName("CHK_MEASURING_INSTRUMENT_ENERGY_METER")[1].checked = true;
           };
-        document.getElementsByName("REMARKS")[0].value = x[13][eq];
+        document.getElementsByName("REMARKS")[0].value = x[33][eq];
         void (document.getElementById('spinner').style.display = 'none');
   
   
