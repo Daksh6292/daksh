@@ -7,7 +7,7 @@ function myf() {
     var eq = document.getElementsByName("EQUIPMENT_ID")[0].value;
     var session = document.getElementsByName("MAINTENANCE_TYPE")[0].value;
     if (session == "WEEKLY") {
-      document.getElementsByName("DONE_DATE")[0].value = x[11][eq];
+      document.getElementsByName("DONE_DATE")[0].value = x[17][eq];
       $("#nextBtn").click();
       document.getElementsByName("VOLTAGE_VALUE_OF_R")[0].value = x[0][eq];
       document.getElementsByName("VOLTAGE_VALUE_OF_Y")[0].value = x[1][eq];
@@ -35,12 +35,12 @@ function myf() {
       } else {
         document.getElementsByName("HIGH_TEMP_HAND_TEST_BEARING_HOUSING_CHECK")[1].checked = true;
       };
-      document.getElementsByName("REMARKS")[0].value = x[10][eq];
+      document.getElementsByName("REMARKS")[0].value = x[16][eq];
       void (document.getElementById('spinner').style.display = 'none');
 
 
     } else if (session == "MONTHLY") {
-      document.getElementsByName("DONE_DATE")[0].value = x[12][eq];
+      document.getElementsByName("DONE_DATE")[0].value = x[18][eq];
       $("#nextBtn").click();
       if (x[0][eq].toUpperCase() == "CHECKED") {
         document.getElementsByName("CHECK_AND_NOTE_VOLTAGE_CURRENT_IMBLANCE")[0].checked = true;
@@ -59,7 +59,7 @@ function myf() {
       } else {
         document.getElementsByName("CLEAN_AIR_FILTER_AND_REPLACE_IF_REQUIRED")[1].checked = true;
       };
-      document.getElementsByName("REMARKS")[0].value = x[6][eq];
+      document.getElementsByName("REMARKS")[0].value = x[16][eq];
       void (document.getElementById('spinner').style.display = 'none');
     }
   }
