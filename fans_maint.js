@@ -110,19 +110,27 @@ function myf() {
         }
         if (session == "WEEKLY") {
             document.getElementsByName("DONE_DATE")[0].value = x[17][eq];
-            w();$("#submit").click();
+            w();
+            void (document.getElementById('spinner').style.display = 'none');
+            if (x[0].AS.toString().toUpperCase() == "TRUE"){$("#submit").click();}
         }
         if (session == "MONTHLY") {
             document.getElementsByName("DONE_DATE")[0].value = x[18][eq];
-            m();$("#submit").click();
+            m();
+            void (document.getElementById('spinner').style.display = 'none');
+            if (x[0].AS.toString().toUpperCase() == "TRUE"){$("#submit").click();}
         }
         if (session == "QUARTERLY") {
             document.getElementsByName("DONE_DATE")[0].value = x[19][eq];
-            q();$("#submit").click();
+            q();
+            void (document.getElementById('spinner').style.display = 'none');
+            if (x[0].AS.toString().toUpperCase() == "TRUE"){$("#submit").click();}
         }
 
         if (session == "HALF-YEARLY") {
             document.getElementsByName("DONE_DATE")[0].value = x[20][eq];
-            hy();$("#submit").click();
+            hy();
+            void (document.getElementById('spinner').style.display = 'none');
+            if (x[0].AS.toString().toUpperCase() == "TRUE"){$("#submit").click();}
     }
 }};myf()
