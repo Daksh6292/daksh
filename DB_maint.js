@@ -96,17 +96,23 @@ function myf() {
      
         if (session == "MONTHLY") {
             document.getElementsByName("DONE_DATE")[0].value = x[34][eq];
-            m();if (x[0].AStoString().toUpperCase() == "TRUE"){$("#submit").click();}
+            m();
+            void (document.getElementById('spinner').style.display = 'none');
+            if (x[0].AStoString().toUpperCase() == "TRUE"){$("#submit").click();}
         }
         if (session == "QUARTERLY") {
             document.getElementsByName("DONE_DATE")[0].value = x[35][eq];
-            q();if (x[0].AS.toString().toUpperCase() == "TRUE"){$("#submit").click();}
+            q();
+            void (document.getElementById('spinner').style.display = 'none');
+            if (x[0].AS.toString().toUpperCase() == "TRUE"){$("#submit").click();}
             
         }
 
         if (session == "HALF-YEARLY") {
             document.getElementsByName("DONE_DATE")[0].value = x[36][eq];
-            hy();if (x[0].AS.toString().toUpperCase() == "TRUE"){$("#submit").click();}
+            hy();
+            void (document.getElementById('spinner').style.display = 'none');
+            if (x[0].AS.toString().toUpperCase() == "TRUE"){$("#submit").click();}
     }
     
 }};myf()
