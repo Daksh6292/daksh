@@ -106,7 +106,7 @@ else
 document.getElementsByName("ELECT_CONN_CONTROL_WIRES_AND_MOTOR_TERMINAL_CHECK")[1].checked = true;};
 
 }
-function y(){hy();
+function y(){hy();}
 
 document.getElementsByName("REMARKS")[0].value = x["REMARKS"][eq];
 
@@ -128,7 +128,7 @@ q();
 void (document.getElementById('spinner').style.display = 'none');
 if (x["as"][0]== true){$("#submit").click();}
 }
-}
+
 
 if (session == "HALF-YEARLY") {
 document.getElementsByName("DONE_DATE")[0].value = dfun(x["Date"][eq]);
