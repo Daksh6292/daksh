@@ -1,6 +1,6 @@
 function myf() {
  var data = new XMLHttpRequest();
- data.open("GET","https://script.google.com/macros/s/AKfycbxraed1GO1eUeLBlALMWCvi-nQR9YdaVLJ2GOAdEE4j-SiMMoTWcjwPehbKsuCTRnyE/exec",true);
+ data.open("GET","https://script.google.com/macros/s/AKfycbz1SDpdWvPU8r89NVE2ukkQvOtlOVOsRTWYiLWmXRT8wR2qYiDsPG6-_1rNrw00Tku9/exec",true);
  data.send();
  data.onload = function my() {
  var x = JSON.parse(data.responseText);
